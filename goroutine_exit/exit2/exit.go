@@ -10,7 +10,7 @@ func producer(n int) <-chan int {
 	go func() {
 		defer func() {
 			close(out)
-			out = nil
+			// out = nil
 			fmt.Println("producer exit")
 		}()
 
