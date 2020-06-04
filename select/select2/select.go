@@ -53,7 +53,7 @@ func combine(inCh1, inCh2 <-chan int) <-chan int {
 				out <- x
 			}
 
-			// 当ch1和ch2都关闭是才退出
+			// 当ch1和ch2都关闭时才退出
 			if inCh1 == nil && inCh2 == nil {
 				break
 			}
