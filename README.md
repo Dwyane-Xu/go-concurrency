@@ -7,5 +7,6 @@
 + goroutine_exit：goroutine退出方法
 + goroutine_pool：goroutine协程池
 + pipeline：goroutine流水线模式
++ pprof：golang pprof（用于获取cpu和内存）
 + select：select的使用
 + unblock_channel：无阻塞channel
